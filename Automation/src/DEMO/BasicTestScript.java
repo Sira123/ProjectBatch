@@ -9,6 +9,7 @@ public class BasicTestScript {
 System.setProperty("webDriver.chrome.driver","C:\\driver\\chromedriver.exe");
 
 ChromeDriver ff=new ChromeDriver();
+ff.get("url");
 	}
 
 }

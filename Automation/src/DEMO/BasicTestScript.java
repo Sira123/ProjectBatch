@@ -1,14 +1,14 @@
 package DEMO;
 
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BasicTestScript {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.setProperty("webDriver.gecko.driver","C:\\driver\\geckodriver.exe");
+System.setProperty("webDriver.chrome.driver","C:\\driver\\chromedriver.exe");
 
-FirefoxDriver ff=new FirefoxDriver();
+ChromeDriver ff=new ChromeDriver();
 	}
 
 }
